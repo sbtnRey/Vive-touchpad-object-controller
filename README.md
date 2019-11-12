@@ -16,8 +16,17 @@ Built using Unity 2019.2.8
 Contact: **sbtn.rey@gmail.com**
 
 ## Setup
-1. We first need to setup a new SteamVR Input Action: Window -> SteamVR Action.
+1. Import the latest SteamVR plugin from the Unity and add the "[Camera Rig]" and "[SteamVR]" prefab to the scene.
+
+2. Setup a new SteamVR Input Action: Window -> SteamVR Action.
 Create a new action (I called mine "TouchpadTouch"), set the type to 'vector2' and then click "Open binding UI".
 ![Alt text](SteamVR%20Input.png?raw=true "Optional Title")
 
-2. Click "Edit" for the current binding, Under "TrackPad" edit the position field and put in the vector2 "touchpadtouch" binding that was previously made and click "Save Personal Binding".
+3. Click "Edit" for the current binding, Under "TrackPad" edit the position field and put in the vector2 "touchpadtouch" binding that was previously made and click "Save Personal Binding". SteamVR Binding.png
+![Alt text](SteamVR%20Input.png.png?raw=true "Optional Title")
+
+After click "Save and Generate" in the SteamVR input menu.
+
+4. Finally just add the script to the object that you want to control.
+
+
