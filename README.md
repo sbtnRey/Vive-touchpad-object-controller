@@ -23,10 +23,5 @@ After click "Save and Generate" in the SteamVR input menu.
 4. Finally just add the script to the object that you want to control.
 ![Alt text](https://cdn.discordapp.com/attachments/497874524549808128/641586817916731402/ex.gif "Optional title")
 
-## Author
-
-**Sebastian Reynolds**
-
-Contact: **sbtn.rey@gmail.com**
 
 
